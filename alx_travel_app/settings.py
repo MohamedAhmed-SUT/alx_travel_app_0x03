@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-from celery.schedules import crontab
+from celery import crontab
 
 # BASE DIR
 BASE_DIR = Path(__file__).resolve().parent.parent
